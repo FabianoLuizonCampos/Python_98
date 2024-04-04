@@ -1,0 +1,31 @@
+#Estrutas de Repeticao
+
+frutas = ["pera", "maca", "banana", "melancia", "laranja", "abacate", "abacaxi", "limao"]
+
+# Estrutura de repeticao FOR
+# for f in frutas:
+#     print(f)
+
+# for i in range(5):
+#     print(i)
+
+# for i in range( len(frutas) ):
+#     print(frutas[i])
+
+# for x in range(5, 10):
+#     print(x)
+
+# Estrutura de Repeticao WHILE
+
+# contador = 0
+
+# while contador < 5:
+#     print(contador)
+#     contador = contador + 1
+#     # contador += 1
+
+nota = int(input("Digite sua nota:"))
+
+while nota < 0 or nota > 100:
+    print("Sua nota deve estar entre 0 e 100, digite novamente")
+    nota = int(input("Digite sua nota:"))
